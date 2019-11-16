@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/silver"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/del_img"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/logo" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="225dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="3dp">
+
+                    <Button
+                        android:id="@+id/update_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="#00ffffff"
+                        android:padding="5dp"
+                        android:text="Change Image"
+                        android:textAllCaps="false" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:elevation="2dp"
+                    app:cardCornerRadius="3dp">
+
+                    <EditText
+                        android:id="@+id/del_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="15dp"
+                        android:background="@color/orange_bg"
+                        android:paddingHorizontal="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="3dp"
+                    app:cardElevation="2dp">
+
+                    <EditText
+                        android:id="@+id/del_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/orange_bg"
+                        android:minHeight="155dp"
+                        android:padding="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="45dp"
+                    android:gravity="center">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="45dp"
+                        app:cardBackgroundColor="@color/orange_bg"
+                        app:cardCornerRadius="5dp">
+
+                        <Button
+                            android:id="@+id/btn_update"
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:background="#00ffffff"
+                            android:fontFamily="monospace"
+                            android:text="Update"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/orange_bg"
+                        app:cardCornerRadius="5dp">
+
+                        <Button
+                            android:id="@+id/btn_delete"
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:background="#00ffffff"
+                            android:fontFamily="monospace"
+                            android:text="Delete"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

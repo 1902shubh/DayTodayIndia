@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.daytoday.softpro.day_today_india">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dtilogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NewsHeadline"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminLogin"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".AdminDashBoard" />
+        <activity android:name=".AddPost" />
+        <activity android:name=".UpdateDeletePost" />
+        <activity android:name=".NewsListActivity" />
+        <activity android:name=".FullscreenNews" />
+        <activity android:name=".DeleteList" />
+        <activity android:name=".DestroyActivity" />
+        <activity android:name=".FavouriteActivity" />
+        <activity android:name=".FavListActivity" />
+        <activity android:name=".FavFullScreenActivity" />
+        <activity android:name=".AboutusActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

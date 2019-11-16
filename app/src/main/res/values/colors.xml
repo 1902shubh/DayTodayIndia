@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232834</color>
+    <color name="colorPrimaryDark">#ef000000</color>
+    <color name="background">#232834</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="start">#83351a1a</color>
+    <color name="end">#a2080000</color>
+    <color name="bg_opacity_start">#703b3939</color>
+    <color name="bg_opacity_end">#83130404</color>
+    <color name="orange_bg">#fff</color>
+    <color name="silver">#cfcfcd</color>
+</resources>
